@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Sprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\Sprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObjectAdmin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\GameObjectAdmin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObjectAdmin_GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\GameObjectAdmin_GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\EnterValue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\EnterValue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Sprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\Sprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\UnityScale.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\UnityScale.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObjectAdmin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\GameObjectAdmin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\GameWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\UnityScale.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\UnityScale.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Beam.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0424BD5F-EF96-497E-976A-CA5DB5ED9F73}|ArrowEscape\\ArrowEscape.vcxproj|solutionrelative:ArrowEscape\\Beam.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnterValue.h",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\EnterValue.h",
+              "RelativeDocumentMoniker": "ArrowEscape\\EnterValue.h",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\EnterValue.h",
+              "RelativeToolTip": "ArrowEscape\\EnterValue.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-31T00:59:43.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameObjectAdmin.h",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObjectAdmin.h",
+              "RelativeDocumentMoniker": "ArrowEscape\\GameObjectAdmin.h",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObjectAdmin.h",
+              "RelativeToolTip": "ArrowEscape\\GameObjectAdmin.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-01T10:51:46.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sprite.h",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Sprite.h",
+              "RelativeDocumentMoniker": "ArrowEscape\\Sprite.h",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Sprite.h",
+              "RelativeToolTip": "ArrowEscape\\Sprite.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-01T10:49:18.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sprite.cpp",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Sprite.cpp",
+              "RelativeDocumentMoniker": "ArrowEscape\\Sprite.cpp",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Sprite.cpp*",
+              "RelativeToolTip": "ArrowEscape\\Sprite.cpp*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-01T09:25:34.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Scene.cpp",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Scene.cpp",
+              "RelativeDocumentMoniker": "ArrowEscape\\Scene.cpp",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Scene.cpp",
+              "RelativeToolTip": "ArrowEscape\\Scene.cpp",
+              "ViewState": "AgIAAAQAAAAAAAAAAAASwA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-01T09:24:32.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Scene.h",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Scene.h",
+              "RelativeDocumentMoniker": "ArrowEscape\\Scene.h",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Scene.h",
+              "RelativeToolTip": "ArrowEscape\\Scene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-01T09:24:29.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameObjectAdmin_GameScene.cpp",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObjectAdmin_GameScene.cpp",
+              "RelativeDocumentMoniker": "ArrowEscape\\GameObjectAdmin_GameScene.cpp",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObjectAdmin_GameScene.cpp",
+              "RelativeToolTip": "ArrowEscape\\GameObjectAdmin_GameScene.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-01T07:37:35.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\main.cpp",
+              "RelativeDocumentMoniker": "ArrowEscape\\main.cpp",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\main.cpp",
+              "RelativeToolTip": "ArrowEscape\\main.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwDQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-23T05:27:04.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SceneManager.cpp",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\SceneManager.cpp",
+              "RelativeDocumentMoniker": "ArrowEscape\\SceneManager.cpp",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\SceneManager.cpp",
+              "RelativeToolTip": "ArrowEscape\\SceneManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-01T01:04:32.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GameScene.cpp",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameScene.cpp",
+              "RelativeDocumentMoniker": "ArrowEscape\\GameScene.cpp",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameScene.cpp",
+              "RelativeToolTip": "ArrowEscape\\GameScene.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-26T05:43:56.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameObject.h",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObject.h",
+              "RelativeDocumentMoniker": "ArrowEscape\\GameObject.h",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObject.h",
+              "RelativeToolTip": "ArrowEscape\\GameObject.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-29T12:45:44.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameObject.cpp",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObject.cpp",
+              "RelativeDocumentMoniker": "ArrowEscape\\GameObject.cpp",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObject.cpp",
+              "RelativeToolTip": "ArrowEscape\\GameObject.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-01T01:45:14.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Player.h",
+              "RelativeDocumentMoniker": "ArrowEscape\\Player.h",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Player.h",
+              "RelativeToolTip": "ArrowEscape\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-23T08:58:29.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameObjectAdmin.cpp",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObjectAdmin.cpp",
+              "RelativeDocumentMoniker": "ArrowEscape\\GameObjectAdmin.cpp",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameObjectAdmin.cpp",
+              "RelativeToolTip": "ArrowEscape\\GameObjectAdmin.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-01T00:52:58.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Player.cpp",
+              "RelativeDocumentMoniker": "ArrowEscape\\Player.cpp",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Player.cpp",
+              "RelativeToolTip": "ArrowEscape\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-23T08:58:20.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Beam.h",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Beam.h",
+              "RelativeDocumentMoniker": "ArrowEscape\\Beam.h",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\Beam.h",
+              "RelativeToolTip": "ArrowEscape\\Beam.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-26T05:14:02.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GameWindow.h",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameWindow.h",
+              "RelativeDocumentMoniker": "ArrowEscape\\GameWindow.h",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\GameWindow.h",
+              "RelativeToolTip": "ArrowEscape\\GameWindow.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-25T11:44:03.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UnityScale.h",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\UnityScale.h",
+              "RelativeDocumentMoniker": "ArrowEscape\\UnityScale.h",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\UnityScale.h",
+              "RelativeToolTip": "ArrowEscape\\UnityScale.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-31T00:49:28.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnityScale.cpp",
+              "DocumentMoniker": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\UnityScale.cpp",
+              "RelativeDocumentMoniker": "ArrowEscape\\UnityScale.cpp",
+              "ToolTip": "C:\\Users\\\u8229\u8D8A\u5065\u592A\\source\\repos\\\u6388\u696D\\ArrowEscape\\ArrowEscape\\UnityScale.cpp",
+              "RelativeToolTip": "ArrowEscape\\UnityScale.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-31T00:49:16.232Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
