@@ -60,7 +60,7 @@
     <ClCompile Include="GameScene.cpp">
       <Filter>Scene\GameScene</Filter>
     </ClCompile>
-    <ClCompile Include="Scene.cpp">
+    <ClCompile Include="SceneBase.cpp">
       <Filter>Scene</Filter>
     </ClCompile>
     <ClCompile Include="Transform.cpp">
@@ -92,7 +92,7 @@
     <ClInclude Include="Frontground.h">
       <Filter>Scene\GameScene</Filter>
     </ClInclude>
-    <ClInclude Include="Scene.h">
+    <ClInclude Include="SceneBase.h">
       <Filter>Scene</Filter>
     </ClInclude>
     <ClInclude Include="GameWindow.h">

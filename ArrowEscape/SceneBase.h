@@ -6,10 +6,10 @@
 	Scene.h
 	Scene‚ğì‚é‚½‚ß‚Ì’ŠÛŠî’êƒNƒ‰ƒX
 */
-class Scene
+class SceneBase
 {
 public:
-	Scene();
+	SceneBase();
 
 	virtual int InitScene();
 	virtual int TerminateScene();

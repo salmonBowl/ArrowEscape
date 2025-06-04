@@ -1,16 +1,16 @@
-#include "Scene.h"
+#include "SceneBase.h"
 #include "DxLib.h"
 #include "fps.h"
 #include "GameObjectAdmin.h"
 #include "GameWindow.h"
 #include "SceneManager.h"
 
-Scene::Scene()
+SceneBase::SceneBase()
 {
 
 }
 
-int Scene::InitScene()
+int SceneBase::InitScene()
 {
 	ChangeWindowMode(true);
 	SetGraphMode(GameWindow::CoordinateWidth, GameWindow::CoordinateHeight, 32);
@@ -31,19 +31,24 @@ int Scene::InitScene()
 	return 0;
 }
 
-int Scene::UpdateScene()
+int SceneBase::UpdateScene()
 {
-	printf("SceneUpdate\n");
-
-	ClearDrawScreen();
-	SetDrawScreen(DX_SCREEN_BACK);
-
 	if (!pGameObjectAdmin)
 	{
 		printf("NullPtrException in Scene::Update()\n");
 		return -1;
 	}
-	pGameObjectAdmin->UpdateAllGameObject();
+
+	// 更新処理
+	
+	pGameObjectAdmin->ExecuteAllGameObject();
+	
+	// 描画処理
+
+	ClearDrawScreen();
+	SetDrawScreen(DX_SCREEN_BACK);
+
+	pGameObjectAdmin->RenderAllGameObject();
 
 	FPS::FPSWait();
 
@@ -51,7 +56,7 @@ int Scene::UpdateScene()
 
 	return 0;
 }
-int Scene::TerminateScene()
+int SceneBase::TerminateScene()
 {
 	printf("プロセスを終了します\n");
 
@@ -68,7 +73,7 @@ int Scene::TerminateScene()
 }
 
 // ゲームループを続ける条件
-bool Scene::CanGameLoop()
+bool SceneBase::CanGameLoop()
 {
 	if (ProcessMessage() == -1)
 	{

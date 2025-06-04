@@ -51,6 +51,7 @@
 int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPSTR lpCmdLine, _In_ int nCmdShow)
 {
 	AllocConsole(); FILE* out = 0; freopen_s(&out, "CON", "w", stdout);
+	printf("here the console\n");
 
 	SceneManager manager;
 
@@ -59,7 +60,6 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _
 
 	while (manager.CanGameLoop())
 	{
-		printf("GameLoop\n");
 		if (manager.UpdateCurrentScene() == -1) return -1;
 	}
 

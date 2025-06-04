@@ -15,7 +15,8 @@ public:
 	GameObjectAdmin();
 
 	virtual void InitAllGameObject();
-	void UpdateAllGameObject();
+	void ExecuteAllGameObject();
+	void RenderAllGameObject();
 	void ClearAllGameObject();
 
 protected:

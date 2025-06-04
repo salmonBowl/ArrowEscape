@@ -1,6 +1,6 @@
 #include "SceneManager.h"
 
-int SceneManager::SwitchScene(std::unique_ptr<Scene>&& nextScene)
+int SceneManager::SwitchScene(std::unique_ptr<SceneBase>&& nextScene)
 {
 	if (!nextScene) return -1;
 

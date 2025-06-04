@@ -8,7 +8,7 @@
   Image.cpp
   main.cpp
   Mathf..cpp
-  Scene.cpp
+  SceneBase.cpp
   SceneManager.cpp
   Player.cpp
   Shape.cpp

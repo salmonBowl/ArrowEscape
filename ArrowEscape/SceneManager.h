@@ -1,12 +1,12 @@
 #pragma once
 #include <memory>
-#include "Scene.h"
+#include "SceneBase.h"
 
 class SceneManager
 {
 public:
 
-	int SwitchScene(std::unique_ptr<Scene>&& nextScene);
+	int SwitchScene(std::unique_ptr<SceneBase>&& nextScene);
 
 	int UpdateCurrentScene();
 
@@ -16,6 +16,6 @@ public:
 
 private:
 
-	std::unique_ptr<Scene> currentScene;
+	std::unique_ptr<SceneBase> currentScene;
 
 };

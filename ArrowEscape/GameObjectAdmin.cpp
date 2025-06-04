@@ -15,13 +15,21 @@ void GameObjectAdmin::InitAllGameObject()
 	}
 }
 
-void GameObjectAdmin::UpdateAllGameObject()
+void GameObjectAdmin::ExecuteAllGameObject()
 {
 	for (auto& pGameObject : pGameObjects)
 	{
 		if (!pGameObject) continue;
 
 		pGameObject->Execute();
+	}
+}
+void GameObjectAdmin::RenderAllGameObject()
+{
+	for (auto& pGameObject : pGameObjects)
+	{
+		if (!pGameObject) continue;
+
 		pGameObject->Render();
 	}
 }
