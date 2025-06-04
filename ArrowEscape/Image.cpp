@@ -2,6 +2,17 @@
 
 #include "DxLib.h"
 
+std::shared_ptr<Image> Image::instance = nullptr;
+
+std::shared_ptr<Image> Image::Instance()
+{
+    if (!instance)
+    {
+        instance = std::shared_ptr<Image>(new Image());
+    }
+    return instance;
+}
+
 // ネットで拾ってきたコード
 // LoadGraphに拡大縮小をつけた関数
 int Image::LoadGraph(const char* FileName, float magnification) {

@@ -9,7 +9,7 @@ Sprite::Sprite()
 }
 Sprite::Sprite(const char* fileName, float imageMagnification, Vector2 offset)
 {
-	handle = Image::LoadGraph(fileName, imageMagnification);
+	handle = Image::Instance()->LoadGraph(fileName, imageMagnification);
 	Sprite::offset = offset;
 }
 Sprite::~Sprite()

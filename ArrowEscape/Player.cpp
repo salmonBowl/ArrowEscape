@@ -4,7 +4,7 @@
 
 Player::Player()
 {
-	handle = Image::LoadGraph("player.png", EnterValue::GameScene::Player::ImageMagnification);
+	handle = Image::Instance()->LoadGraph("player.png", EnterValue::GameScene::Player::ImageMagnification);
 	offset = EnterValue::GameScene::Player::Offset;
 }
 
