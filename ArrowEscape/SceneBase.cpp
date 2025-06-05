@@ -65,7 +65,11 @@ int SceneBase::TerminateScene()
 		printf("NullPtrException in Scene::TerminateScene()\n");
 		return -1;
 	}
+
+	// GameObject‚ðŠJ•ú
 	pGameObjectAdmin -> ClearAllGameObject();
+	// ¡‚Ü‚Å‚ÌLoadGraph‚Åì‚ç‚ê‚½handle‚ðŠJ•ú
+	ImageManager::Instance()->ReleaseAll();
 	
 	DxLib_End();
 

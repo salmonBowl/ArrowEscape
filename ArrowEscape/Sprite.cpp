@@ -1,20 +1,16 @@
 #include "Sprite.h"
 #include "DxLib.h"
 #include "UnityScale.h"
-#include "Image.h"
 
 Sprite::Sprite()
 {
-	offset = Vector2{};
+	handle = -1;
+	offset = Vector2{ };
 }
-Sprite::Sprite(const char* fileName, float imageMagnification, Vector2 offset)
+void Sprite::SetInitalState_Sprite(int handle, Vector2 offset)
 {
-	handle = Image::Instance()->LoadGraph(fileName, imageMagnification);
+	Sprite::handle = handle;
 	Sprite::offset = offset;
-}
-Sprite::~Sprite()
-{
-	DeleteGraph(handle);
 }
 
 void Sprite::Execute()

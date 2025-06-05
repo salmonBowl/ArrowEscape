@@ -1,5 +1,9 @@
 #include "GameObjectAdmin.h"
 
+#include <memory>
+#include "GameObjectFactory.h"
+#include "Sprite.h"
+
 GameObjectAdmin::GameObjectAdmin()
 {
 
@@ -44,46 +48,39 @@ void GameObjectAdmin::ClearAllGameObject()
 	}
 }
 
-void GameObjectAdmin::Instantiate(std::unique_ptr<GameObject>&& gameObject)
+void GameObjectAdmin::Instantiate(AllGraphName name)
 {
-	if (!gameObject)
-	{
-		printf("NullPtrException : GameObjectAdmin::Instantiate()\n");
-		return;
-	}
-
 	Transform transform = Transform();
 
-	gameObject->SetInitalState(transform);
-
-	StoreInGameObjectArray(gameObject);
+	Instantiate(name, transform);
 }
-void GameObjectAdmin::Instantiate(std::unique_ptr<GameObject>&& gameObject, Vector2f pos)
+void GameObjectAdmin::Instantiate(AllGraphName name, Vector2f pos)
 {
-	if (!gameObject)
-	{
-		printf("NullPtrException : GameObjectAdmin::Instantiate()\n");
-		return;
-	}
-
 	Transform transform = Transform();
 	transform.position = pos;
 
-	gameObject->SetInitalState(transform);
-
-	StoreInGameObjectArray(gameObject);
+	Instantiate(name, transform);
 }
-void GameObjectAdmin::Instantiate(std::unique_ptr<GameObject>&& gameObject, Transform transform)
+void GameObjectAdmin::Instantiate(AllGraphName name, Transform transform)
 {
-	if (!gameObject)
-	{
-		printf("NullPtrException : GameObjectAdmin::Instantiate()\n");
+	auto pGameObject = GameObjectFactory::Create(name);
+	if (!pGameObject) {
+		printf("オブジェクトの生成に失敗しました。おそらくGameObjectFactoryに定義がありません。\n");
 		return;
 	}
 
-	gameObject->SetInitalState(transform);
+	auto& info = ImageManager::Instance()->GetInfo(name);
 
-	StoreInGameObjectArray(gameObject);
+	pGameObject->SetInitalState(transform);
+	
+	// GameObjectをSpriteに変換できるならoffsetを指定
+	// gameObjectの所有はpGameObjectなのでこれで大丈夫
+	if (Sprite* sprite = dynamic_cast<Sprite*>(pGameObject.get()))
+	{
+		sprite->SetInitalState_Sprite(info.handle, info.offset);
+	}
+
+	StoreInGameObjectArray(pGameObject);
 }
 bool GameObjectAdmin::StoreInGameObjectArray(std::unique_ptr<GameObject>& storeObject)
 {

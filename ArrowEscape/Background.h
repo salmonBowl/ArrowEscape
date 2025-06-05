@@ -1,10 +1,12 @@
 #pragma once
-#include "GameObject.h"
+#include "Sprite.h"
 #include "EnterValue.h"
 
-class Background : GameObject
+class Background : public Sprite
 {
 public:
+	Background() { }
+
 	float stageWidth = EnterValue::GameScene::Background::StageWidth;
 	float stageHeight = EnterValue::GameScene::Background::StageHeight;
 };

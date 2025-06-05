@@ -1,11 +1,12 @@
 #include "Player.h"
-#include "Image.h"
+#include "ImageManager.h"
 #include "EnterValue.h"
 
 Player::Player()
 {
-	handle = Image::Instance()->LoadGraph("player.png", EnterValue::GameScene::Player::ImageMagnification);
-	offset = EnterValue::GameScene::Player::Offset;
+	ImageManager::GenerateInfo generateInfo = ImageManager::Instance()->GetInfo(AllGraphName::Player);;
+	handle = generateInfo.handle;
+	offset = generateInfo.offset;
 }
 
 void Player::Execute()

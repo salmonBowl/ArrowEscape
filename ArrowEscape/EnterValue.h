@@ -20,13 +20,6 @@ public:
 		{
 			static constexpr float StageWidth = 15.0f;
 			static constexpr float StageHeight = 15.0f;
-			static constexpr float ImageMagnification = 3.0f;
-			static constexpr Vector2 Offset = Vector2{ 768, 768 };
-		};
-		struct Player
-		{
-			static constexpr float ImageMagnification = 1.0f;
-			static constexpr Vector2 Offset = Vector2{ 89, 96 };
 		};
 	};
 };

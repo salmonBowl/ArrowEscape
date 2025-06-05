@@ -4,6 +4,7 @@
 #include "GameObject.h"
 #include "EnterValue.h"
 #include "Transform.h"
+#include "ImageManager.h"
 
 /*
 	ŠeScene‚ÌAdmin‚Ì‚½‚ß‚Ì’ŠÛŠî’êƒNƒ‰ƒX
@@ -23,9 +24,9 @@ protected:
 
 	std::array<std::unique_ptr<GameObject>, EnterValue::LimitNumOfGameObject> pGameObjects;
 
-	void Instantiate(std::unique_ptr<GameObject>&& gameObject);
-	void Instantiate(std::unique_ptr<GameObject>&& gameObject, Vector2f pos);
-	void Instantiate(std::unique_ptr<GameObject>&& gameObject, Transform transform);
+	void Instantiate(AllGraphName name);
+	void Instantiate(AllGraphName name, Vector2f pos);
+	void Instantiate(AllGraphName name, Transform transform);
 
 private:
 

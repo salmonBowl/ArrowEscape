@@ -141,8 +141,9 @@
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameObjectAdmin.cpp" />
     <ClCompile Include="GameObjectAdmin_GameScene.cpp" />
+    <ClCompile Include="GameObjectFactory.cpp" />
     <ClCompile Include="GameScene.cpp" />
-    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="ImageManager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mathf..cpp" />
     <ClCompile Include="SceneBase.cpp" />
@@ -159,12 +160,13 @@
     <ClInclude Include="Background.h" />
     <ClInclude Include="Beam.h" />
     <ClInclude Include="EnterValue.h" />
+    <ClInclude Include="GameObjectFactory.h" />
     <ClInclude Include="fps.h" />
     <ClInclude Include="Frontground.h" />
     <ClInclude Include="GameObjectAdmin.h" />
     <ClInclude Include="GameObjectAdmin_GameScene.h" />
     <ClInclude Include="AllGameObjects_GameScene.h" />
-    <ClInclude Include="Image.h" />
+    <ClInclude Include="ImageManager.h" />
     <ClInclude Include="Mathf.h" />
     <ClInclude Include="SceneBase.h" />
     <ClInclude Include="Input.h" />

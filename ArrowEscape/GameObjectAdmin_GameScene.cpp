@@ -5,11 +5,11 @@
 
 void GameObjectAdmin_GameScene::InitAllGameObject()
 {
-	// background //Backgroundクラスに修正予定
-	Instantiate(std::make_unique<Sprite>("background.png", EnterValue::GameScene::Background::ImageMagnification, EnterValue::GameScene::Background::Offset));
+	// オブジェクトの配置を行います
+
+	Instantiate(AllGraphName::Background);
 	
-	// Player
-	Instantiate(std::make_unique<Player>(), Vector2f{ 6, 0 });
+	Instantiate(AllGraphName::Player, Vector2f{ 6, 0 });
 
 	GameObjectAdmin::InitAllGameObject();
 }
