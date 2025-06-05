@@ -17,9 +17,9 @@ ImageManager::ImageManager()
 {
     generateInfoMap = 
     {
-        { ImageAssetID::PlayerImage, { -1, "player.png", 1.0f, Vector2{89, 96} } },
-        { ImageAssetID::BackgroundImage, { -1, "background.png", 3.0f, Vector2{768, 768} } },
-        { ImageAssetID::ArrowImage, { -1, "arrow.png", 1.0f, Vector2{ 89, 96 } } }
+        { ImageAssetID::PlayerImage, { -1, "../res/player.png", 1.0f, Vector2{89, 96} } },
+        { ImageAssetID::BackgroundImage, { -1, "../res/background.png", 3.0f, Vector2{768, 768} } },
+        { ImageAssetID::ArrowImage, { -1, "../res/arrow.png", 1.0f, Vector2{ 89, 96 } } }
     };
 }
 
