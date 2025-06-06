@@ -1,15 +1,14 @@
 #pragma once
 #include <memory>
-#include <map>
+#include <unordered_map>
 #include "Vector2.h"
 #include "EnterValue.h"
+#include "SingletonBase.h"
 
-class ImageManager
+class ImageManager : public SingletonBase<ImageManager>
 {
+	friend class SingletonBase<ImageManager>;
 public:
-
-	static std::shared_ptr<ImageManager> Instance();
-
 	struct GenerateInfo
 	{
 		int handle = -1;
@@ -26,9 +25,7 @@ public:
 
 private:
 	ImageManager();
-	std::map<ImageAssetID, GenerateInfo> generateInfoMap;
+	std::unordered_map<ImageAssetID, GenerateInfo> generateInfoMap;
 
 	int LoadGraphInternal(ImageAssetID gameObject);
-
-	static std::shared_ptr<ImageManager> instance;
 };

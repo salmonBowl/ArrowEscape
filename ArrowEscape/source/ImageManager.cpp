@@ -2,17 +2,6 @@
 
 #include "DxLib.h"
 
-std::shared_ptr<ImageManager> ImageManager::instance = nullptr;
-
-std::shared_ptr<ImageManager> ImageManager::Instance()
-{
-    if (!instance)
-    {
-        instance = std::shared_ptr<ImageManager>(new ImageManager());
-    }
-    return instance;
-}
-
 ImageManager::ImageManager()
 {
     generateInfoMap = 
