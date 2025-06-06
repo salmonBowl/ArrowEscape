@@ -5,17 +5,6 @@
 #include "Player.h"
 #include "Background.h"
 
-std::shared_ptr<GameObjectFactory> GameObjectFactory::instance = nullptr;
-
-std::shared_ptr<GameObjectFactory> GameObjectFactory::Instance()
-{
-	if (!instance)
-	{
-		instance = std::make_unique<GameObjectFactory>();
-	}
-	return instance;
-}
-
 std::unique_ptr<GameObject> GameObjectFactory::CreateGameObject(GameObjectType name)
 {
 	std::unique_ptr<Sprite> gameObject;

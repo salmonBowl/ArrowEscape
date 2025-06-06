@@ -81,6 +81,9 @@
     <ClCompile Include="GameObjectFactory.cpp">
       <Filter>Scene</Filter>
     </ClCompile>
+    <ClCompile Include="SingletonBase.inl">
+      <Filter>Scene</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arrow.h">
@@ -156,6 +159,9 @@
       <Filter>Scene</Filter>
     </ClInclude>
     <ClInclude Include="ImageManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
       <Filter>Scene</Filter>
     </ClInclude>
   </ItemGroup>
