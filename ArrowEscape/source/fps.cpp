@@ -1,7 +1,9 @@
 #include "fps.h"
 #include "DxLib.h"
 
-FPS::FPSData FPS::fps;
+
+// 「メンバー関数はconstにできます」がうるさかった
+#pragma warning (disable:26496)
 
 // 初期化
 void FPS::FPSInit()

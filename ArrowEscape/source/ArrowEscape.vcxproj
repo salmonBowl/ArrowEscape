@@ -144,12 +144,14 @@
     <ClCompile Include="GameObjectFactory.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="ImageManager.cpp" />
+    <ClCompile Include="input.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mathf..cpp" />
     <ClCompile Include="SceneBase.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="SingletonBase.inl" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="Transform.cpp" />
     <ClCompile Include="UnityScale.cpp" />
@@ -177,6 +179,7 @@
     <ClInclude Include="Player.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="Shape.h" />
+    <ClInclude Include="SingletonBase.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="UnityScale.h" />
