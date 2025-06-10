@@ -7,4 +7,9 @@ public:
 	Player();
 
 	void Execute() override;
+
+private:
+
+	float moveSpeed;
+
 };

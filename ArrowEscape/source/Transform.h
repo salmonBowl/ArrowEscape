@@ -8,4 +8,5 @@ public:
 	Vector2f position;
 	float angle;
 	Vector2f scale;
+	Vector2f velocity;
 };

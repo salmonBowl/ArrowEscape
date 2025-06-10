@@ -9,7 +9,7 @@ enum class KeyCode
 	W, S, A, D, Space
 };
 
-class Input : SingletonBase<Input>
+class Input : public SingletonBase<Input>
 {
 	friend class SingletonBase<Input>;
 public :
