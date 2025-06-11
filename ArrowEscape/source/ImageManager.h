@@ -18,7 +18,7 @@ public:
 	};
 
 	const GenerateInfo& GetInfo(ImageAssetID gameObject);
-	void LoadIfNeeded(ImageAssetID gameObject); // ‹ŒLoadGraph
+	//void LoadIfNeeded(ImageAssetID gameObject); // ‹ŒLoadGraph
 
 	void LoadAll();
 	void ReleaseAll();

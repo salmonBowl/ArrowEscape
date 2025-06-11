@@ -84,6 +84,9 @@
     <ClCompile Include="SingletonBase.inl">
       <Filter>Scene</Filter>
     </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arrow.h">

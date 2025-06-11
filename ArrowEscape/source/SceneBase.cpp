@@ -61,7 +61,7 @@ int SceneBase::UpdateScene()
 
 	pGameObjectAdmin->RenderAllGameObject();
 
-	FPS::FPSWait();
+	FPS::Instance()->FPSWait();
 
 	ScreenFlip();
 

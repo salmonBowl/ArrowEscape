@@ -17,6 +17,7 @@ const ImageManager::GenerateInfo& ImageManager::GetInfo(ImageAssetID name)
 {
     return generateInfoMap.at(name);
 }
+/*
 void ImageManager::LoadIfNeeded(ImageAssetID name)
 {
     auto& info = generateInfoMap.at(name);
@@ -24,7 +25,7 @@ void ImageManager::LoadIfNeeded(ImageAssetID name)
     {
         info.handle = LoadGraphInternal(name);
     }
-}
+}*/
 
 int ImageManager::LoadGraphInternal(ImageAssetID name)
 {
