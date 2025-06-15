@@ -144,9 +144,10 @@
     <ClCompile Include="GameObjectFactory.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="ImageManager.cpp" />
-    <ClCompile Include="input.cpp" />
+    <ClCompile Include="PlayerInput.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mathf..cpp" />
+    <ClCompile Include="PlayerMove.cpp" />
     <ClCompile Include="SceneBase.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="Player.cpp" />
@@ -170,8 +171,9 @@
     <ClInclude Include="AllGameObjects_GameScene.h" />
     <ClInclude Include="ImageManager.h" />
     <ClInclude Include="Mathf.h" />
+    <ClInclude Include="PlayerMove.h" />
     <ClInclude Include="SceneBase.h" />
-    <ClInclude Include="Input.h" />
+    <ClInclude Include="PlayerInput.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="GameWindow.h" />
     <ClInclude Include="Library.h" />

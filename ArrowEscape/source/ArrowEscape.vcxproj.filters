@@ -22,6 +22,9 @@
     <Filter Include="System">
       <UniqueIdentifier>{12eff4ad-86c6-4448-b9c7-65369e94c1ad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Scene\GameScene\Player">
+      <UniqueIdentifier>{6b30e8da-1ad9-47a1-8262-7d103bf017c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -31,9 +34,6 @@
       <Filter>Scene\GameScene</Filter>
     </ClCompile>
     <ClCompile Include="Beam.cpp">
-      <Filter>Scene\GameScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
       <Filter>Scene\GameScene</Filter>
     </ClCompile>
     <ClCompile Include="SceneManager.cpp">
@@ -84,8 +84,14 @@
     <ClCompile Include="SingletonBase.inl">
       <Filter>Scene</Filter>
     </ClCompile>
-    <ClCompile Include="input.cpp">
-      <Filter>System</Filter>
+    <ClCompile Include="Player.cpp">
+      <Filter>Scene\GameScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMove.cpp">
+      <Filter>Scene\GameScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInput.cpp">
+      <Filter>Scene\GameScene\Player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -107,14 +113,8 @@
     <ClInclude Include="GameWindow.h">
       <Filter>System</Filter>
     </ClInclude>
-    <ClInclude Include="Input.h">
-      <Filter>System</Filter>
-    </ClInclude>
     <ClInclude Include="Library.h">
       <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Scene\GameScene</Filter>
     </ClInclude>
     <ClInclude Include="SceneManager.h">
       <Filter>Scene</Filter>
@@ -166,6 +166,15 @@
     </ClInclude>
     <ClInclude Include="SingletonBase.h">
       <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Scene\GameScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMove.h">
+      <Filter>Scene\GameScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInput.h">
+      <Filter>Scene\GameScene\Player</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

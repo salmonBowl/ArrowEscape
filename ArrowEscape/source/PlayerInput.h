@@ -9,9 +9,9 @@ enum class KeyCode
 	W, S, A, D, Space
 };
 
-class Input : public SingletonBase<Input>
+class PlayerInput : public SingletonBase<PlayerInput>
 {
-	friend class SingletonBase<Input>;
+	friend class SingletonBase<PlayerInput>;
 public :
 
 	void Update();
@@ -22,7 +22,7 @@ public :
 
 private :
 
-	Input();
+	PlayerInput();
 
 	std::unordered_map<KeyCode, int> parseKeyCode;
 	char prevKeyBuffer[256];

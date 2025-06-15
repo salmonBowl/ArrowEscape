@@ -20,6 +20,8 @@ public:
 		{
 			static constexpr float StageWidth = 15.0f;
 			static constexpr float StageHeight = 15.0f;
+			static constexpr float GroundLevel = -7.0f;
+			static constexpr float GravityVolume = 1.9f;
 		};
 	};
 };

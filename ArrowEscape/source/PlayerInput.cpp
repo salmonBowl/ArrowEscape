@@ -1,9 +1,9 @@
-#include "Input.h"
+#include "PlayerInput.h"
 
 #include <Windows.h>
 #include "DxLib.h"
 
-Input::Input()
+PlayerInput::PlayerInput()
 {
 	parseKeyCode =
 	{
@@ -21,7 +21,7 @@ Input::Input()
 	ZeroMemory(currentKeyBuffer, sizeof(char) * 256);
 }
 
-void Input::Update()
+void PlayerInput::Update()
 {
 	// BufferÇÃÉtÉåÅ[ÉÄÇêiÇﬂÇÈ
 	memcpy(prevKeyBuffer, currentKeyBuffer, sizeof(char) * 256);
@@ -30,23 +30,23 @@ void Input::Update()
 	GetHitKeyStateAll(currentKeyBuffer);
 }
 
-bool Input::PrevDown(KeyCode keyCode) { return prevKeyBuffer[parseKeyCode[keyCode]] == 0; }
-bool Input::CurrentDown(KeyCode keyCode) { return currentKeyBuffer[parseKeyCode[keyCode]] == 0; }
+bool PlayerInput::PrevDown(KeyCode keyCode) { return prevKeyBuffer[parseKeyCode[keyCode]] == 0; }
+bool PlayerInput::CurrentDown(KeyCode keyCode) { return currentKeyBuffer[parseKeyCode[keyCode]] == 0; }
 
-bool Input::GetKey(KeyCode keyCode)
+bool PlayerInput::GetKey(KeyCode keyCode)
 {
 	if (PrevDown(keyCode) && CurrentDown(keyCode))
 		return true;
 	return false;
 }
-bool Input::GetKeyDown(KeyCode keyCode)
+bool PlayerInput::GetKeyDown(KeyCode keyCode)
 {
 	if (PrevDown(keyCode) == false && CurrentDown(keyCode))
 		return true;
 	return false;
 }
 
-float Input::GetAxisRaw(std::string text)
+float PlayerInput::GetAxisRaw(std::string text)
 {
 	if (text == "Horizontal")
 	{
