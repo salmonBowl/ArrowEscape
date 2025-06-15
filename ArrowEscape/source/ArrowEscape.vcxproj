@@ -144,9 +144,11 @@
     <ClCompile Include="GameObjectFactory.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="ImageManager.cpp" />
+    <ClCompile Include="Input.cpp" />
     <ClCompile Include="PlayerInput.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mathf..cpp" />
+    <ClCompile Include="PlayerJumpCharge.cpp" />
     <ClCompile Include="PlayerMove.cpp" />
     <ClCompile Include="SceneBase.cpp" />
     <ClCompile Include="SceneManager.cpp" />
@@ -170,7 +172,9 @@
     <ClInclude Include="GameObjectAdmin_GameScene.h" />
     <ClInclude Include="AllGameObjects_GameScene.h" />
     <ClInclude Include="ImageManager.h" />
+    <ClInclude Include="Input.h" />
     <ClInclude Include="Mathf.h" />
+    <ClInclude Include="PlayerJumpCharge.h" />
     <ClInclude Include="PlayerMove.h" />
     <ClInclude Include="SceneBase.h" />
     <ClInclude Include="PlayerInput.h" />

@@ -2,10 +2,20 @@
 #include "Vector2.h"
 #include "Transform.h"
 #include "Background.h"
+#include "PlayerJumpCharge.h"
+#include "PlayerInput.h"
 
 class PlayerMove
 {
+public:
+    PlayerMove();
+
+    void Execute(Transform& transform);
+
 private:
+    PlayerInput input;
+    PlayerJumpCharge jumpcharge;
+
     Vector2f myVelocity;
     float moveSpeed;
     Background background;
@@ -14,16 +24,14 @@ private:
     float feetLength;
 
     float speed;
-        float ratio_airmove;
+    float ratio_airmove;
     float jumpPower;
-    PlayerJumpCharge jumpcharge;
     float jumpChargeSpeed;
 
     float stageWidth;
     float groundLevel;
     Vector2f gravityForce;
 
-    PlayerInput input;
 
     /*
         Jump(キー入力、地面に接地しているか)
@@ -31,13 +39,8 @@ private:
             grondedがfalseだと2段ジャンプの挙動になります
      */
     void Jump(bool grounded);
+    float IncreaseJumpCharge(float value) const;
 
     // 地面に設置しているかを返す関数
     bool Grounded(Vector2f myPosition) const;
-
-public:
-    PlayerMove();
-
-    void Execute(Transform& transform);
-
-}
+};

@@ -3,7 +3,8 @@
 
 
 // 「メンバー関数はconstにできます」がうるさかった
-#pragma warning (disable:26496)
+#pragma warning (push)
+#pragma warning (disable : 26496)
 
 // 初期化
 void FPS::FPSInit()
@@ -86,3 +87,4 @@ void FPS::FPSWait()
 
 	return;
 }
+#pragma warning (pop)

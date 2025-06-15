@@ -1,7 +1,5 @@
 #include "PlayerMove.h"
 
-#include <stdio.h>
-#include <memory>
 #include "PlayerInput.h"
 #include "Mathf.h"
 
@@ -16,15 +14,10 @@ PlayerMove::PlayerMove()
 
 void PlayerMove::Execute(Transform& transform)
 {
-    auto& input = *PlayerInput::Instance();
-
     input.Update();
 
     float inputX = input.X;
     bool jumpTriggered = input.JumpTriggered;
-
-    myVelocity.x = input->GetAxisRaw("Horizontal") * moveSpeed;
-    myVelocity.y -= background.Width;
 
     // 更新前と更新後のPlayerの座標
     Vector2f currentPosition = transform.position;
@@ -41,13 +34,6 @@ void PlayerMove::Execute(Transform& transform)
         myVelocity.y = 0;
 
         jumpcharge.SetValue(Mathf::Clamp01(IncreaseJumpCharge(jumpcharge.Value)));
-
-        float IncreaseJumpCharge(float value)
-        {
-            float adjust = 0.05f;
-            float increaseDelta = (jumpChargeSpeed * (1 - adjust)) + ((1 - value) * adjust);
-            return value + increaseDelta;
-        }
 
         if (jumpTriggered)
         {
@@ -87,6 +73,12 @@ void PlayerMove::Execute(Transform& transform)
 
     // 座標を更新
     transform.position = nextPosition;
+}
+float PlayerMove::IncreaseJumpCharge(float value) const
+{
+    float adjust = 0.05f;
+    float increaseDelta = (jumpChargeSpeed * (1 - adjust)) + ((1 - value) * adjust);
+    return value + increaseDelta;
 }
 
 /*
