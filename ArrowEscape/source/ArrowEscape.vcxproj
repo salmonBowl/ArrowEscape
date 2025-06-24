@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -145,6 +145,7 @@
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="ImageManager.cpp" />
     <ClCompile Include="Input.cpp" />
+    <ClCompile Include="PlayerEventManager.cpp" />
     <ClCompile Include="PlayerInput.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mathf..cpp" />
@@ -174,6 +175,7 @@
     <ClInclude Include="ImageManager.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="Mathf.h" />
+    <ClInclude Include="PlayerEventManager.h" />
     <ClInclude Include="PlayerJumpCharge.h" />
     <ClInclude Include="PlayerMove.h" />
     <ClInclude Include="SceneBase.h" />
